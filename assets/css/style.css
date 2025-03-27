@@ -5,6 +5,10 @@
     --section-bg: #f8f9fa;
 }
 
+::marker {
+    display: none;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
