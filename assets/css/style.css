@@ -5,7 +5,7 @@
     --section-bg: #f8f9fa;
 }
 
-::marker {
+:marker {
     display: none;
 }
 
@@ -218,6 +218,6 @@ body {
     }
     
     .sidebar {
-        order: 1;
+        order: -1;
     }
 }
