@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xueli Liu - College of Intelligence and Computing</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/indicator.css">
+    <script src="assets/js/indicator.js"></script>
+</head>
+
+<body>
+    <!-- 语言切换导航 -->
+    <nav class="language-nav">
+        <div class="nav-inner">
+            <button class="lang-switcher default" data-lang="en">English</button>
+            <button class="lang-switcher" data-lang="zh">中文</button>
+            <div class="indicator-bar"></div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="profile-grid">
+            <!-- 左侧边栏 -->
+            <aside class="sidebar">
+                <img src="assets/image/liuxx.jpg" alt="刘雪莉" class="profile-photo">
+                <h1><span style="color: var(--accent-color);">Xueli Liu</span></h1>
+                <p class="position" style="margin: 1rem 0;">
+                    College of Intelligence and Computing<br>
+                    Tianjin University<br>
+                    Ph.D, Associate Professor
+                </p>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        xueli@tju.edu.cn
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Room B303, No.55 Building
+                    </div>
+                </div>
+            </aside>
+
+            <!-- 右侧主要内容 -->
+            <main>
+                <section class="biography">
+                    <h2 class="section-title">Biography</h2>
+                    <p>
+                        I am an Associate Professor in the School of Intelligence and Computing at Tianjin University. 
+                        I earned my Ph.D. from Harbin Institute of Technology in 2018 under the supervision of Professor Jianzhong Li, a renowned expert in database systems. 
+                        From 2015 to 2017, I conducted research as a joint Ph.D. student at the University of Edinburgh, where I was mentored by Academician Wenfei Fan.
+                        My research interests include database systems and theory, big data processing, data governance, graph data mining, and multimodal data analysis. 
+                        Currently, I focus on integrating logical rules with deep learning and large-scale models to tackle knowledge discovery challenges in multimodal data environments while enhancing the interpretability of AI-driven results. 
+                        Additionally, I am engaged in developing large-scale models for biomanufacturing (synthetic biology).
+                    </p>
+                </section>
+
+                <nav class="nav-links">
+                    <a href="#news"><i class="fas fa-bullhorn"></i> news</a>
+                    <a href="#publications"><i class="fas fa-book-open"></i> publications</a>
+                    <a href="#teaching"><i class="fas fa-chalkboard-teacher"></i> teaching</a>
+                </nav>
+        
+            <!-- 动态部分 -->
+            <section id="news">
+                <h2 class="section-title">news</h2>
+                <div class="news-list">
+                    <!-- 新闻条目 -->
+                    <li>
+                        One paper was conditionally accepted by Big Data Mining and Analytics 2025 (SCI Q1).
+                    </li>
+                    <li>
+                        One paper was conditionally accepted by Big Data Mining and Analytics 2024 (SCI Q1).
+                    </li>
+                    <li>
+                        One paper was conditionally accepted by VLDB 2024 (CCF A).
+                    </li>
+                    <li>
+                        Two papers were conditionally accepted by DASFAA 2024 (CCF B).
+                    </li>
+                </div>
+            </section>
+        </div>
+
+            <!-- 教学项目 -->
+            <section id="teaching">
+                <h2 class="section-title">Teaching</h2>
+                <ul class="project-list">
+                    <li class="project-item">
+                        <h3>Database Principles, Database System, Algorithm Design and Analysis</h3>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 论文部分 -->
+            <section id="publications">
+                <div class="section-title">
+                    <h3>Selected Publications</h3>
+                    <p class="asterisk">(* refers to corresponding author)</p>
+                </div>
+                <article class="publication-item">
+                    <a href="assets/paper/nonepaper.pdf" class="btn">
+                        <h3>Anomaly Detection Using Graph Anomaly Rules</h3>
+                    </a>
+                    <div class="authors">Bowen Dong, Wenjun Wang, Lifei Sun, <b>Xueli Liu*</b>, Zhenzhen Mai</div>
+                    <div class="meta">
+                        <span class="publication-tag">SCI 一区</span>
+                        <span class="venue">Big Data Mining and Analytics</span>
+                        <span class="publication-year">2025 (Accepted)</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/vldb-gro.pdf" class="btn">
+                        <h3>Extending graph rules with oralces</h3>
+                    </a>
+                    <div class="authors"><b>Xueli Liu</b>, Bowen Dong, Wenzhi FU, Xin Wang, Wenjun Wang</div>
+                    <div class="meta">
+                        <span class="publication-tag">CCF A</span>
+                        <span class="venue">VLDB</span>
+                        <span class="publication-year">2024</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/nonepaper.pdf" class="btn">
+                        <h3>Entity Profiling with Graph Rules</h3>
+                    </a>
+                    <div class="authors">Zhenzhen Mai, Wenjun Wang, <b>Xueli Liu*</b>, Xiaoyang Feng, Bowen Dong</div>
+                    <div class="meta">
+                        <span class="publication-tag">CCF B</span>
+                        <span class="venue">DASFAA</span>
+                        <span class="publication-year">2024</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/nonepaper.pdf" class="btn">
+                        <h3>Learning Rules in Knowledge Graphs via Contrastive Learning</h3>
+                    </a>
+                    <div class="authors">Xiaoyang Feng, <b>Xueli Liu*</b>, Yajun Yang, Wenjun Wang, Jun Wang</div>
+                    <div class="meta">
+                        <span class="publication-tag">CCF B</span>
+                        <span class="venue">DASFAA</span>
+                        <span class="publication-year">2024</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/A_Reinforcement_Learning_Approach_for_Graph_Rule_Learning.pdf" class="btn">
+                        <h3>A Reinforcement Learning Approach for Graph Rule Learning</h3>
+                    </a>
+                    <div class="authors">Zhenzhen Mai, Wenjun Wang, <b>Xueli Liu*</b>, Xiaoyang Feng, Jun Wang, Wenzhi Fu</div>
+                    <div class="meta">
+                        <span class="publication-tag">SCI 一区</span>
+                        <span class="venue">Big Data Mining and Analytics</span>
+                        <span class="publication-year">2024</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/nonepaper.pdf" class="btn">
+                        <h3>STHGCN: A spatiotemporal prediction framework based on higher-order graph convolution networks</h3>
+                    </a>
+                    <div class="authors">Jun Wang, Wenjun Wang, Yu Wei, <b>Xueli Liu</b>, Keyong Jia, Xiaoming Li, Min Zhong, Yueheng Sun, Yuqing Xu</div>
+                    <div class="meta">
+                        <span class="publication-tag">SCI 一区</span>
+                        <span class="venue">Knowledge-Based Systems</span>
+                        <span class="publication-year">2022</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/nonepaper.pdf" class="btn">
+                        <h3>Traffic prediction based on auto spatiotemporal multi-graph adversarial neural network</h3>
+                    </a>
+                    <div class="authors">Jun Wang, Wenjun Wang, <b>Xueli Liu</b>, Wei Yu, Xiaoming Li, Peiliang Sun</div>
+                    <div class="meta">
+                        <span class="publication-tag">SCI 二区</span>
+                        <span class="venue">Physic A</span>
+                        <span class="publication-year">2022</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/TODS-NGD.pdf" class="btn">
+                        <h3>Catching Numeric Inconsistencies in Graphs</h3>
+                    </a>
+                    <div class="authors">Wenfei Fan, <b>Xueli Liu*</b>, Ping Lu, Chao Tian</div>
+                    <div class="meta">
+                        <span class="publication-tag">CCF A</span>
+                        <span class="venue">ACM Transactions on Database Systems (TODS)</span>
+                        <span class="publication-year">2020</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/sigmod-discovery.pdf" class="btn">
+                        <h3>Discovering Graph Functional Dependencies</h3>
+                    </a>
+                    <div class="authors">Wenfei Fan, Chunming Hu, <b>Xueli Liu*</b>, Ping Lu</div>
+                    <div class="meta">
+                        <span class="publication-tag">CCF A</span>
+                        <span class="venue">ACM Transactions on Database Systems (TODS)</span>
+                        <span class="publication-year">2020</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/sigmod-ngds.pdf" class="btn">
+                        <h3>Catching Numeric Inconsistencies in Graphs</h3>
+                    </a>
+                    <div class="authors">Wenfei Fan, <b>Xueli Liu*</b>, Ping Lu, Chao Tian</div>
+                    <div class="meta">
+                        <span class="publication-tag">CCF A</span>
+                        <span class="venue">SIGMOD</span>
+                        <span class="publication-year">2018</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/sigmod-discovery.pdf" class="btn">
+                        <h3>Discovering Graph Functional Dependencies</h3>
+                    </a>
+                    <div class="authors">Wenfei Fan, Chunming Hu, <b>Xueli Liu*</b>, Ping Lu</div>
+                    <div class="meta">
+                        <span class="publication-tag">CCF A</span>
+                        <span class="venue">SIGMOD</span>
+                        <span class="publication-year">2018</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/ICDE2018.pdf" class="btn">
+                        <h3>Parallel Reasoning of Graph Functional Dependencies</h3>
+                    </a>
+                    <div class="authors">Wenfei Fan, <b>Xueli Liu</b>, Yingjie Cao</div>
+                    <div class="meta">
+                        <span class="publication-tag">CCF A</span>
+                        <span class="venue">ICDE</span>
+                        <span class="publication-year">2018</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/jcst.pdf" class="btn">
+                        <h3>EntityManager: Managing Dirty Data Based on Entity Resolution</h3>
+                    </a>
+                    <div class="authors"><b>Xueli Liu</b>, Hongzhi Wang, Jianzhong Li</div>
+                    <div class="meta">
+                        <span class="publication-tag">None</span>
+                        <span class="venue">JCST</span>
+                        <span class="publication-year">2017</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/computing.pdf" class="btn">
+                        <h3>不一致数据上查询结果的一致性估计</h3>
+                    </a>
+                    <div class="authors">刘雪莉, 李建中</div>
+                    <div class="meta">
+                        <span class="publication-tag">None</span>
+                        <span class="venue">计算机学报</span>
+                        <span class="publication-year">2015</span>
+                    </div>
+                </article>
+                <article class="publication-item">
+                    <a href="assets/paper/software.pdf" class="btn">
+                        <h3>基于实体的相似性连接算法</h3>
+                    </a>
+                    <div class="authors">刘雪莉, 王宏志, 李建中, 高宏</div>
+                    <div class="meta">
+                        <span class="publication-tag">None</span>
+                        <span class="venue">软件学报</span>
+                        <span class="publication-year">2015</span>
+                    </div>
+                </article>
+            </section>
+
+            <!-- 代表项目 -->
+            <section id="programs">
+                <h2 class="section-title">Programs</h2>
+                <ul class="project-list">
+                    <li class="project-item">
+                        <h3>National Key R&D Program of China Sub-project</h3>
+                        <p>Research on key technologies of comprehensive information application platform for cultural relics safety based on big data technologies.</p>
+                        <p>Research on big data analysis and prediction and early warning of cultural relic safety risk.</p>
+                        <span class="project-year">2020-2023</span>
+                    </li>
+
+                    <li class="project-item">
+                        <h3>The National Natural Science Foundation of China Youth-Foundation</h3>
+                        <p>Research on graph dependencies for link predicting interpretion.</p>
+                        <span class="project-year">2020-2023</span>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <!-- 在<body>末尾添加 -->
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <!-- 社交媒体 -->
+            <div class="footer-section">
+                <h4 data-i18n="footer.social">Social Media</h4>
+                <div class="social-links">
+                    <a href="https://github.com/xueli-liu" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <!-- <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- 版权信息 -->
+        <div class="copyright">
+            <p data-i18n="footer.copyright">College of Intelligence and Computing. Tianjin University</p>
+        </div>
+    </footer>
+
+    <script>
+        // 事件监听
+        document.querySelectorAll('.lang-switcher').forEach(btn => {
+            btn.addEventListener('click', handleLanguageSwitch);
+        });
+
+        // 初始化
+        window.addEventListener('DOMContentLoaded', initIndicator);
+        window.addEventListener('resize', initIndicator); // 窗口变化时重置
+    </script>
+</body>
+</html>
