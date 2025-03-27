@@ -101,10 +101,6 @@ body {
     margin-top: 12px;
 }
 
-<<<<<<< HEAD
-/* ===== 教学/项目列表 ===== */
-=======
->>>>>>> master
 .project-list {
     list-style-type: none;
     padding-left: 0;
@@ -117,25 +113,6 @@ body {
     border-radius: 6px;
 }
 
-<<<<<<< HEAD
-/* ===== 响应式设计 ===== */
-@media (max-width: 768px) {
-    .profile-header {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .publication-item {
-        flex-direction: column;
-    }
-
-    .publication-image {
-        flex: none;
-        max-width: 180px;
-        margin: 0 auto;
-    }
-}
-=======
 .nav-links {
     display: flex;
     gap: 1.5rem;
@@ -240,4 +217,3 @@ body {
         order: 1;
     }
 }
->>>>>>> master
