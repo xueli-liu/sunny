@@ -1,4 +1,3 @@
-/* 语言切换导航条样式 */
 .language-nav {
     position: fixed;
     top: 20px;
@@ -16,23 +15,20 @@
     cursor: pointer;
     color: #666;
     padding: 8px 12px;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .lang-switcher.active {
-    color: #2c3e50;
+    color: var(--primary-color);
     font-weight: 500;
+    border-bottom: 2px solid var(--accent-color);
+    background-color: rgba(52, 152, 219, 0.1); /* 浅色背景突出显示 */
 }
 
-.indicator-bar {
-    position: absolute;
-    bottom: -5px;
-    height: 2px;
-    background: #3498db;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* 悬停效果 */
 .lang-switcher:not(.active):hover {
-    color: #3498db;
+    color: var(--accent-color);
+}
+
+section {
+    margin-bottom: 2rem;
 }

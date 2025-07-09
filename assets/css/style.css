@@ -5,10 +5,6 @@
     --section-bg: #f8f9fa;
 }
 
-:marker {
-    display: none;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -38,8 +34,7 @@ body {
 .sidebar {
     background: var(--section-bg);
     padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
 
 .profile-photo {
@@ -75,29 +70,25 @@ body {
 }
 
 .publication-item {
-    background: white;
     padding: 1.5rem;
-    border-radius: 8px;
+    border-bottom: 1px solid #eee;
     margin-bottom: 1.5rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    transition: transform 0.2s;
 }
 
 .publication-item:hover {
-    transform: translateY(-2px);
+    background-color: #f9f9f9;
 }
 
 .publication-tag {
     display: inline-block;
     padding: 0.2rem 1rem;
-    padding-bottom: 0.2rem;
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: bold;
     width: 85px;
     text-align: justify;
     justify-content: space-between;
-    background: linear-gradient(135deg, #3498db, #2980b9);
+    background-color: #3498db;
     color: white;
 }
 
@@ -133,11 +124,10 @@ body {
 }
 
 .nav-links a:hover {
-    background: var(--accent-color);
-    color: white;
+    color: var(--accent-color);
+    text-decoration: underline;
 }
 
-/* 页脚样式 */
 .site-footer {
     background: #f8f9fa;
     border-top: 1px solid #eaecef;
