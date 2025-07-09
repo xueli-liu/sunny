@@ -69,33 +69,6 @@ body {
     font-size: small;
 }
 
-.publication-item {
-    padding: 1.5rem;
-    border-bottom: 1px solid #eee;
-    margin-bottom: 1.5rem;
-}
-
-.publication-item:hover {
-    background-color: #f9f9f9;
-}
-
-.publication-tag {
-    display: inline-block;
-    padding: 0.2rem 1rem;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: bold;
-    width: 85px;
-    text-align: justify;
-    justify-content: space-between;
-    background-color: #3498db;
-    color: white;
-}
-
-.publication-links {
-    margin-top: 12px;
-}
-
 .project-list {
     list-style-type: none;
     padding-left: 0;
