@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="刘雪莉，天津大学网络安全学院副教授，主要研究数据库系统、图数据挖掘、数据安全与隐私计算、AI可解释性等方向。">
+    <meta property="og:title" content="刘雪莉 - 天津大学网络安全学院">
+    <meta property="og:description" content="天津大学网络安全学院副教授，研究方向涵盖数据库系统、图数据挖掘与AI可解释性。">
+    <meta property="og:type" content="website">
     <title>刘雪莉 - 天津大学网络安全学院</title>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/indicator.css">
@@ -15,11 +20,11 @@
 </head>
 
 <body>
-    <nav class="language-nav">
+    <nav class="language-nav" aria-label="语言切换">
         <div class="nav-inner">
-            <button class="lang-switcher" data-lang="en">English</button>
-            <button class="lang-switcher default" data-lang="zh">中文</button>
-            <div class="indicator-bar"></div>
+            <button class="lang-switcher" data-lang="en" aria-pressed="false">English</button>
+            <button class="lang-switcher default" data-lang="zh" aria-pressed="true">中文</button>
+            <div class="indicator-bar" aria-hidden="true"></div>
         </div>
     </nav>
 
@@ -27,8 +32,8 @@
         <div class="profile-grid">
             <aside class="sidebar">
                 <img src="assets/image/liuxx.jpg" alt="刘雪莉" class="profile-photo">
-                <h1><span style="color: var(--accent-color);">刘雪莉</span></h1>
-                <p class="position" style="margin: 1rem 0;">
+                <h1 class="profile-name">刘雪莉</h1>
+                <p class="profile-position">
                     天津大学<br>
                     网络安全学院<br>
                     副教授
@@ -67,14 +72,14 @@
                 <section id="news">
                     <h2 class="section-title">最新动态</h2>
                     <ul class="news-list">
-                        国家自然科学基金面上项目"开放世界图规则体系研究"获批（2026.1–2029.12）<br>
-                        1篇论文被CCF A类会议SIGKDD 2026录用<br>
-                        1篇论文被CCF A类期刊VLDB 2026录用<br>
-                        1篇论文被CCF A类会议ACL Findings 2026录用<br>
-                        1篇论文被SCI一区期刊Big Data Mining and Analytics 2025录用<br>
-                        1篇论文被SCI一区期刊Big Data Mining and Analytics 2024录用<br>
-                        1篇论文被CCF A类期刊VLDB 2024录用<br>
-                        2篇论文被CCF B类期刊DASFAA 2024录用
+                        <li>国家自然科学基金面上项目"开放世界图规则体系研究"获批（2026.1–2029.12）</li>
+                        <li>1篇论文被CCF A类会议SIGKDD 2026录用</li>
+                        <li>1篇论文被CCF A类期刊VLDB 2026录用</li>
+                        <li>1篇论文被CCF A类会议ACL Findings 2026录用</li>
+                        <li>1篇论文被SCI一区期刊Big Data Mining and Analytics 2025录用</li>
+                        <li>1篇论文被SCI一区期刊Big Data Mining and Analytics 2024录用</li>
+                        <li>1篇论文被CCF A类期刊VLDB 2024录用</li>
+                        <li>2篇论文被CCF B类期刊DASFAA 2024录用</li>
                     </ul>
                 </section>
 
@@ -82,11 +87,11 @@
                     <h2 class="section-title">教学项目</h2>
                     <div class="teaching-grid">
                         <div class="course-card">
-                            <h3><a>数据库系统</a></h3>
+                            <h3>数据库系统</h3>
                             <p>深入学习数据库管理系统，重点研究实现技术、优化方法和实际应用。</p>
                         </div>
                         <div class="course-card">
-                            <h3><a>算法设计与分析</a></h3>
+                            <h3>算法设计与分析</h3>
                             <p>探索算法设计技术、复杂度分析以及问题解决策略。</p>
                         </div>
                     </div>

@@ -53,8 +53,8 @@
     margin-right: 12px;
 }
 
-.publication-tag {
-    color: #d32f2f !important;
+.meta .publication-tag {
+    color: #d32f2f;
     font-weight: 500;
 }
 

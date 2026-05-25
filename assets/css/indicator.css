@@ -18,17 +18,20 @@
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 
+.lang-switcher[aria-pressed="true"],
 .lang-switcher.active {
     color: var(--primary-color);
     font-weight: 500;
     border-bottom: 2px solid var(--accent-color);
-    background-color: rgba(52, 152, 219, 0.1); /* 浅色背景突出显示 */
+    background-color: rgba(52, 152, 219, 0.1);
 }
 
-.lang-switcher:not(.active):hover {
+.lang-switcher:not(.active):hover,
+.lang-switcher[aria-pressed="false"]:hover {
     color: var(--accent-color);
 }
 
-section {
-    margin-bottom: 2rem;
+.lang-switcher:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
 }

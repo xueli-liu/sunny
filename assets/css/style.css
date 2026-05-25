@@ -1,8 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --primary-color: #2c3e50;
     --accent-color: #3498db;
     --text-color: #34495e;
     --section-bg: #f8f9fa;
+    --focus-ring: 0 0 0 3px rgba(52, 152, 219, 0.4);
 }
 
 * {
@@ -12,11 +17,15 @@
 }
 
 body {
-    font-family: 'Segoe UI', system-ui, sans-serif;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: white;
     padding: 2rem 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
 }
 
 .container {
@@ -41,6 +50,14 @@ body {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 1.5rem;
+}
+
+.profile-name {
+    color: var(--accent-color);
+}
+
+.profile-position {
+    margin: 1rem 0;
 }
 
 .contact-info {
@@ -93,12 +110,17 @@ body {
     font-weight: 500;
     padding: 0.5rem 1rem;
     border-radius: 8px;
-    transition: all 0.2s;
+    transition: color 0.2s, background-color 0.2s;
 }
 
 .nav-links a:hover {
     color: var(--accent-color);
     text-decoration: underline;
+}
+
+.nav-links a:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
 }
 
 .site-footer {
@@ -170,17 +192,29 @@ body {
 }
 
 @media (max-width: 768px) {
+    .profile-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        order: -1;
+    }
+
     .footer-container {
         grid-template-columns: 1fr;
     }
 }
 
-@media (max-width: 768px) {
-    .profile-grid {
-        grid-template-columns: 1fr;
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
     }
-    
-    .sidebar {
-        order: -1;
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
     }
 }

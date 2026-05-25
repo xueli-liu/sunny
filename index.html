@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Xueli Liu is an Associate Professor at the School of Cybersecurity, Tianjin University. Her research spans database systems, graph data mining, data security, and AI interpretability.">
+    <meta property="og:title" content="Xueli Liu - School of Cybersecurity, Tianjin University">
+    <meta property="og:description" content="Associate Professor at Tianjin University. Research in database systems, graph data mining, and AI.">
+    <meta property="og:type" content="website">
     <title>Xueli Liu - School of Cybersecurity</title>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/indicator.css">
@@ -15,11 +20,11 @@
 </head>
 
 <body>
-    <nav class="language-nav">
+    <nav class="language-nav" aria-label="Language switcher">
         <div class="nav-inner">
-            <button class="lang-switcher default" data-lang="en">English</button>
-            <button class="lang-switcher" data-lang="zh">中文</button>
-            <div class="indicator-bar"></div>
+            <button class="lang-switcher default" data-lang="en" aria-pressed="true">English</button>
+            <button class="lang-switcher" data-lang="zh" aria-pressed="false">中文</button>
+            <div class="indicator-bar" aria-hidden="true"></div>
         </div>
     </nav>
 
@@ -27,8 +32,8 @@
         <div class="profile-grid">
             <aside class="sidebar">
                 <img src="assets/image/liuxx.jpg" alt="Xueli Liu" class="profile-photo">
-                <h1><span style="color: var(--accent-color);">Xueli Liu</span></h1>
-                <p class="position" style="margin: 1rem 0;">
+                <h1 class="profile-name">Xueli Liu</h1>
+                <p class="profile-position">
                     School of Cybersecurity<br>
                     Tianjin University<br>
                     Ph.D, Associate Professor
@@ -74,14 +79,14 @@
                 <section id="news">
                     <h2 class="section-title">News</h2>
                     <ul class="news-list">
-                        NSFC General Program was granted: "Research on Open-World Graph Rule Systems" (2026.1–2029.12)<br>
-                        One paper was accepted by SIGKDD 2026 (CCF A)<br>
-                        One paper was accepted by VLDB 2026 (CCF A)<br>
-                        One paper was accepted by ACL Findings 2026 (CCF A)<br>
-                        One paper was accepted by Big Data Mining and Analytics 2025 (SCI Q1)<br>
-                        One paper was accepted by Big Data Mining and Analytics 2024 (SCI Q1)<br>
-                        One paper was accepted by VLDB 2024 (CCF A)<br>
-                        Two papers were accepted by DASFAA 2024 (CCF B)
+                        <li>NSFC General Program was granted: "Research on Open-World Graph Rule Systems" (2026.1–2029.12)</li>
+                        <li>One paper was accepted by SIGKDD 2026 (CCF A)</li>
+                        <li>One paper was accepted by VLDB 2026 (CCF A)</li>
+                        <li>One paper was accepted by ACL Findings 2026 (CCF A)</li>
+                        <li>One paper was accepted by Big Data Mining and Analytics 2025 (SCI Q1)</li>
+                        <li>One paper was accepted by Big Data Mining and Analytics 2024 (SCI Q1)</li>
+                        <li>One paper was accepted by VLDB 2024 (CCF A)</li>
+                        <li>Two papers were accepted by DASFAA 2024 (CCF B)</li>
                     </ul>
                 </section>
 
@@ -89,12 +94,12 @@
                     <h2 class="section-title">Teaching</h2>
                     <div class="teaching-grid">
                         <div class="course-card">
-                            <h3><a>Database System</a></h3>
+                            <h3>Database System</h3>
                             <p>Advanced study of database management systems, focusing on implementation, optimization,
                                 and practical applications.</p>
                         </div>
                         <div class="course-card">
-                            <h3><a>Algorithm Design and Analysis</a></h3>
+                            <h3>Algorithm Design and Analysis</h3>
                             <p>Exploration of algorithm design techniques, complexity analysis, and problem-solving
                                 strategies.</p>
                         </div>
