@@ -7,6 +7,21 @@
     z-index: 1000;
 }
 
+.nav-inner {
+    position: relative;
+    display: flex;
+    gap: 25px;
+}
+
+.indicator-bar {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: var(--accent-color);
+    transition: left 0.3s ease, width 0.3s ease;
+    pointer-events: none;
+}
+
 .lang-switcher {
     position: relative;
     background: none;
